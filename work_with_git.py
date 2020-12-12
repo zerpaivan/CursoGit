@@ -7,5 +7,5 @@ len_list = len(text_list)
 for i in range(len_list):
     text_list[i] = text_list[i].rstrip()
 
-print(text_list)
-print(ordenarlista(text_list))
+print("lista desordenada: ", text_list)
+print("lista ordenada: "ordenarlista(text_list))
