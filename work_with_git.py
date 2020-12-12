@@ -17,3 +17,4 @@ for i in range(len_list):
 if __name__ == "__main__":
     print("lista desordenada: ", text_list)
     print("lista ordenada: "ordenarlista(text_list))
+    print("finalizando programa")
