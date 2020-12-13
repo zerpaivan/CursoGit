@@ -1,7 +1,7 @@
 from sort_lists_function import ordenarlista
-
+from upper_case_function import upper_case
 try:
-    file = open("namesx_list.txt", "r")
+    file = open("names_list.txt", "r")
 except:
     print("Error en archivo")
     quit()
@@ -16,5 +16,5 @@ for i in range(len_list):
 
 if __name__ == "__main__":
     print("lista desordenada: ", text_list)
-    print("lista ordenada: "ordenarlista(text_list))
+    print("lista ordenada: ", upper_case(ordenarlista(text_list)))
     print("finalizando programa")
